@@ -1,0 +1,11 @@
+name = "lean-core-dump"
+version = "0.1.0"
+defaultTargets = ["lean-core-dump"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+[[lean_exe]]
+name = "lean-core-dump"
+root = "Main"
